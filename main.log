@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.3.11)  24 MAR 2025 00:28
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.3.11)  24 MAR 2025 00:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1139,6 +1139,24 @@ Overfull \vbox (15.84793pt too high) detected at line 131
 ] [12
 
 ]
+File: images/std/C.png Graphic file (type bmp)
+<images/std/C.png>
+
+Overfull \vbox (7.98398pt too high) detected at line 151
+ []
+
+[13
+
+]
+File: images/std/C1.png Graphic file (type bmp)
+<images/std/C1.png>
+
+Overfull \vbox (26.57764pt too high) detected at line 154
+ []
+
+[14
+
+]
 \tf@nav=\write6
 \openout6 = `main.nav'.
 
@@ -1157,12 +1175,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 1BF7CE1924E901AE24B7B505C7C272D7;240.
  ) 
 Here is how much of TeX's memory you used:
- 43599 strings out of 474878
- 1065832 string characters out of 5762516
+ 43669 strings out of 474878
+ 1069783 string characters out of 5762516
  1950627 words of memory out of 5000000
- 64896 multiletter control sequences out of 15000+600000
+ 64964 multiletter control sequences out of 15000+600000
  566957 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,16n,123p,722b,2380s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (12 pages).
+Output written on main.pdf (14 pages).

@@ -139,9 +139,17 @@
                 \item 一血：53min
             \end{itemize}
         \end{block}
-        本题为BFS模板题，不再赘述。下面介绍找规律方法：
+        本题为BFS+简单剪枝模板题，不再赘述。下面介绍找规律方法：
         \begin{itemize}
-            \item 
+            \item 观察数字$14$所在行，发现其为$1,2,\dots,13,14,13,\dots,2,1$。
+            \item 观察$14$所在的上一行和下一行，均为$1,2,\dots,12,13,12,\dots,2,1$。
+            \item 以此类推，可发现本题实质为经典语法题“打印沙漏”变种。
         \end{itemize}
+    \end{frame}
+    \begin{frame}{std(BFS+剪枝)}
+        \centering\includegraphics[scale=0.08]{images/std/C.png}
+    \end{frame}
+    \begin{frame}{选手代码(“打印沙漏”)}
+        \centering\includegraphics[scale=0.15]{images/std/C1.png}
     \end{frame}
 \end{document}
