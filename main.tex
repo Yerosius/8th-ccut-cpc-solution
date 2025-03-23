@@ -107,7 +107,10 @@
             \end{itemize}
         \end{block}
         \begin{itemize}
-            \item 
+            \item 顺序累加具有前缀性，因此使用前缀和计算每个状态。
+            \item 若序列均为正数，答案为$1$。
+            \item 若序列存在负数，则答案为前缀和中最小值的相反数$+1$。
+            \item 对C/C++选手：请注意开long long。
         \end{itemize}
     \end{frame}
 \end{document}
