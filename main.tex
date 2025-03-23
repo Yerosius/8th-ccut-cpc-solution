@@ -4,6 +4,7 @@
 \usepackage{pgfplots}
 \usepackage{pgfplotstable}
 \usepackage{unicode-math}
+\usepackage{graphicx}
 \usetikzlibrary{patterns}
 \title[8th CCUT CPC]{第八届长春工业大学程序设计竞赛\\题解}
 \author[饶晟烨]{21级出题组\ 饶晟烨}
@@ -67,6 +68,10 @@
             \item 对C/C++选手：请注意使用浮点型计算及存储平均值。
         \end{itemize}
     \end{frame}
+    \begin{frame}{std}
+        \centering\includegraphics[scale=0.2]{images/std/A.png}
+    \end{frame}
+
     \section{H}
     \hypertarget{H}{}
     \begin{frame}{\hyperlink{toc}{H.谷雨}\footnote{\href{https://acm816.cn/p/243}{\underline{补题链接}}}}
@@ -79,9 +84,13 @@
         \end{block}
         \begin{itemize}
             \item 模拟即可。
-            \item 对C/C++选手：请注意开long\ long。
+            \item 对C/C++选手：请注意开long long。
         \end{itemize}
     \end{frame}
+    \begin{frame}{std}
+        \centering\includegraphics[scale=0.18]{images/std/H.png}
+    \end{frame}
+
     \section{B}
     \hypertarget{B}{}
     \begin{frame}{\hyperlink{toc}{B.祝各位都能取得好成绩}\footnote{\href{https://acm816.cn/p/237}{\underline{补题链接}}}}
@@ -96,6 +105,10 @@
             \item 将26个英文字母映射到数组下标并统计，输出数组即可。
         \end{itemize}
     \end{frame}
+    \begin{frame}{std}
+        \centering\includegraphics[scale=0.18]{images/std/B.png}
+    \end{frame}
+
     \section{G}
     \hypertarget{G}{}
     \begin{frame}{\hyperlink{toc}{G.清明}\footnote{\href{https://acm816.cn/p/242}{\underline{补题链接}}}}
@@ -111,6 +124,24 @@
             \item 若序列均为正数，答案为$1$。
             \item 若序列存在负数，则答案为前缀和中最小值的相反数$+1$。
             \item 对C/C++选手：请注意开long long。
+        \end{itemize}
+    \end{frame}
+    \begin{frame}{std}
+        \centering\includegraphics[scale=0.25]{images/std/G.png}
+    \end{frame}
+    \section{C}
+    \hypertarget{C}{}
+    \begin{frame}{\hyperlink{toc}{C.立春}\footnote{\href{https://acm816.cn/p/238}{\underline{补题链接}}}}
+        \begin{block}{题目大意}
+            \begin{itemize}
+                \item 在二维网格上有若干个数字$14$，其将向上下左右方向上扩散，每扩散一次数字$-1$，当相遇时取较大值。输出扩散后的网格。
+                \item 关键词：找规律/BFS
+                \item 一血：53min
+            \end{itemize}
+        \end{block}
+        本题为BFS模板题，不再赘述。下面介绍找规律方法：
+        \begin{itemize}
+            \item 
         \end{itemize}
     \end{frame}
 \end{document}
